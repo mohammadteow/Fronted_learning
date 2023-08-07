@@ -2398,6 +2398,7 @@
 	width: 100%;
 }
 
+.border-radius { border-radius: 5rem;}
 
 
 /*[ Hover ]
@@ -2998,7 +2999,7 @@
 }
 
 .ab-t-l {
-	position: absolute;
+	position: absolute; 
 	left: 0px;
 	top: 0px;
 }
@@ -3061,7 +3062,7 @@
 
 /* shadow ========================= */
 .filter_shadow{
-	filter: drop-shadow(2px 4px 6px black);
+	filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.356));
 }
 
 
