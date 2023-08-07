@@ -7,15 +7,16 @@
     <title>My Project</title>
     <link rel="Stylesheet" href="assets/materialize/css/materialize.min.css">
     <link rel="Stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="Stylesheet" href="assets/css/util.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
 <body>
-    <nav>
+    <nav class="white z-depth-0">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#!" class="blue-text">Home</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
@@ -26,10 +27,22 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><div class="user-view">
+            <div class="background">
+              <img src="/assets/img/luca-micheli-ruWkmt3nU58-unsplash.jpg" class="w-full">
+            </div>
+            <a href="#user"><img class="circle" src="assets/img/badge.png"></a>
+            <a href="#name"><span class="white-text name">Mahdi Babaei</span></a>
+            <a href="#email"><span class="white-text email">babaei2149@gmail.com@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">email</i>Sena a Email</a></li>
+          <li><a href="#!"><i class="material-icons">monochrome_photos
+        </i>Instagram</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Links</a></li>
+          <li><a class="waves-effect" href="#!">Home</a></li>
+          <li><a class="waves-effect" href="#!">Users</a></li>
+
     </ul>
     <script src="assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
